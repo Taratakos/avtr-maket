@@ -1,0 +1,44 @@
+/* 
+Підключений файл   
+<link rel="stylesheet" href="css/reset.css">
+обнуляє всі стилі браузерів, він допомагає відображати нашу сторінку однаково в різних браузерах
+ */
+/* Стандарт для всіх сторінок */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto Condensed", "Forum", "Inter" sans-serif;
+  background: #070a1b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+}
+
+a {
+  text-decoration: nonne;
+  color: inherit;
+}
+
+.container {
+  
+}
+
+.header {
+
+}
+
+.header__top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100px;
+}

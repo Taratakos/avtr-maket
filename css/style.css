@@ -28,8 +28,20 @@ a {
   color: inherit;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
 .container {
-  
+  max-width: 1220px;
+  margin: 0 auto;
+  padding:  0 10px;
 }
 
 .header {
@@ -41,4 +53,25 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 100px;
+}
+
+.list {
+  display: flex;
+}
+
+.list__item + .list__item {
+  margin-left: 30px;
+}
+
+.list__link {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all .3s ;
+}
+
+.list__link:hover {
+  height: 40px;background-color: #C1A1D2;
 }

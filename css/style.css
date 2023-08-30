@@ -26,8 +26,8 @@ html {
 
 body {
   font-family: "Roboto Condensed", "Forum", "Inter", sans-serif;
-  background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
-   font-weight: 400;
+  background: linear-gradient(180deg, #070a1b 0%, #2a3170 100%);
+  font-weight: 400;
   font-size: 16px;
   line-height: 120%;
   color: #fff;
@@ -57,7 +57,7 @@ ul {
 /* #region header */
 
 .header {
-  background: #070A1B;
+  background: #070a1b;
 }
 
 .header__top {
@@ -189,19 +189,19 @@ ul {
   color: #f402a2;
   font-size: 18px;
   line-height: 120%;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .premier__btn:hover {
-  color: #53A1Cb;
-  border: 1px solid #53A1Cb;
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
 }
 
 /* #endregion */
 
 /* #region Footer */
 .footer {
-  background: #070A1B;
+  background: #070a1b;
 }
 .footer__inner {
   display: flex;
@@ -218,7 +218,7 @@ ul {
   margin-bottom: 150px;
 }
 
-.video__img{
+.video__img {
   margin-bottom: 25px;
 }
 
@@ -235,7 +235,7 @@ ul {
   line-height: 120%;
   border: 1px solid #f402a2;
   width: 100%;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .video__btn span {
@@ -243,16 +243,16 @@ ul {
 }
 
 .video__btn:hover {
-  color: #53A1Cb;
-  border: 1px solid #53A1Cb;
-}
-
-.video__btn:hover path{
-  transition: all .3s;
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
 }
 
 .video__btn:hover path {
-  fill: #53A1Cb;
+  transition: all 0.3s;
+}
+
+.video__btn:hover path {
+  fill: #53a1cb;
 }
 /* #endregion */
 
@@ -294,11 +294,11 @@ ul {
   margin-left: -30px;
 }
 
-.design-slider{
+.design-slider {
   padding-bottom: 25px;
 }
 
-.arrow { 
+.arrow {
   position: absolute;
   z-index: 10;
   cursor: pointer;
@@ -312,6 +312,29 @@ ul {
 
 .arrow-right {
   transform: translateX(30px);
+}
+
+.design__box {
+  display: flex;
+  max-width: 590px;
+  margin: 150px auto;
+  gap: 60px;
+  padding: 0 10px;
+}
+
+.design__box-column {
+  width: 255px;
+}
+
+.design__box-text {
+  margin-bottom: 15px;
+}
+
+.design__img {
+  max-width: 100%;
+  display: block;
+  /* аналог до background-size:cover */
+  object-fit: cover;
 }
 
 /* #endregion */
